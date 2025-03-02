@@ -137,3 +137,54 @@ body {
   color: #5e5e5e;
 }
 
+.motive{
+  width: 100%;
+  padding: 5% 10%;
+}
+
+.motive h3{
+  color: #5e5e5e;
+  text-transform: uppercase;
+}
+
+.motive p{
+  margin-top: 3%;
+  font-size: 27px;
+  text-align: right;
+  padding-right: 12%;
+  font-weight: 450;
+}
+
+.motive #three{
+  display: inline-block;
+  background-color: #111;
+  height: 35px;
+  width: 60px;
+  border-radius: 100px;
+  transform: translateY(10px);
+  background-image: url(assets/grass.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.motive #two{
+  display: inline-block;
+  background-color: #111;
+  height: 35px;
+  width: 80px;
+  border-radius: 100px;
+  transform: translateY(10px);
+  background-image: url(assets/shaljam.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.motive #one{
+  display: inline-block;
+  background-color: #111;
+  height: 35px;
+  width: 45px;
+  border-radius: 100px;
+  transform: translateY(10px);
+  background-image: url(assets/bluegirl.jpg);
+  background-size: cover;
+  background-position: center;
+}
