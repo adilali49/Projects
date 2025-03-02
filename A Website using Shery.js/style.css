@@ -188,3 +188,31 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.hero-section2{
+  /* background-color: #111; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.hero-section2 .synergy{
+  width: 20vw;
+  overflow: hidden;
+  /* background-color: #5e5e5e; */
+}
+
+.synergy .synergy-image-div{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 20vw;
+  height: 35vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.synergy h1{
+  margin-bottom: 4%;
+  font-weight: 300;
+}
