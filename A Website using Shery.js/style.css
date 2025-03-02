@@ -1,10 +1,44 @@
+@font-face {
+  font-family: "Nimbus Sans L";
+  src: url(NimbusSanL-Regu.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nimbus Sans L";
 }
 html,
 body {
   height: 100%;
   width: 100%;
+}
+
+.nav{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  position: relative;
+}
+
+.nav a{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.nav .centertag{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav2{
+  display: flex;
+  gap: 20px;
 }
