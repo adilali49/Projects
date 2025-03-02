@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10%;
+  padding: 4% 10%;
   position: relative;
 }
 
@@ -28,7 +28,7 @@ body {
   color: black;
   text-decoration: none;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .nav .centertag{
@@ -42,3 +42,98 @@ body {
   display: flex;
   gap: 20px;
 }
+
+.hero{
+  width: 100%;
+  /* background-color: #111; */
+  margin-top: 17vw;
+  padding: 0% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sustain .sus-image-div{
+  width: 10vw;
+  height:15vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.sustain h5{
+  opacity: 0.8;
+}
+
+.sus-image-div img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+}
+
+.sustain p{
+  margin: 12px 0 16px 0;
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.ephemeral{
+
+  width: 30vw;
+  min-height: 42vw;
+  position: relative;
+}
+
+.ephemeral .headings{
+  position: absolute;
+  top: -16%;
+  left: -10%;
+}
+
+.ephemeral h1{
+  font-size: 5vw;
+  letter-spacing: -.1vw;
+  line-height: 0.9;
+  font-weight: 400;
+}
+
+.image-ephemeral-and-text{
+  width: 100%;
+  height: 100%;
+}
+
+.image-ephemeral-and-text img{
+  width: 100%;
+  height: 100%;
+}
+
+.ephemeral > p{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 13px 0;
+}
+
+.visit{
+  display: flex;
+  align-items: center;
+}
+
+.visit i{
+  color: #5e5e5e;
+  font-size: 25px;
+  margin-right: 10px;
+  padding: 12px;
+  /* background-color: red; */
+  border-radius: 50%;
+  border: 1px solid #5e5e5e;
+}
+
+.visit h3{
+  font-weight: 400;
+  color: #5e5e5e;
+}
+
