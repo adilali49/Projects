@@ -19,4 +19,12 @@ Shery.textAnimate(".home > .hero .headings h1", {
     duration: 1.5,
     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
     multiplier: 0.1,
-  });
+});
+
+gsap.from('.sustain, .ephemeral, .visit',{
+    y: 50,
+    stagger: .2,
+    opacity: 0,
+    duration: 2,
+    ease: 'expo.out',
+})
