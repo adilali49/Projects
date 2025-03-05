@@ -146,3 +146,20 @@ Shery.imageEffect(".banner-image-div", {
   },
   gooey: true,
 });
+
+document.querySelector(".content button").addEventListener("mouseover", () => {
+  gsap.to(".future video", {
+    opacity: 1,
+    duration: 1,
+    delay: 0.3,
+  });
+});
+document
+.querySelector(".content button")
+.addEventListener("mouseleave", () => {
+    gsap.to(".future video", {
+      opacity: 0,
+      duration: 1,
+      delay: 0.3,
+    });
+  });
