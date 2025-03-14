@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "Nimbus Sans L";
+  src: url(NimbusSanL-Regu.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nimbus Sans L";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4% 10%;
+  position: relative;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav .centertag {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav2 {
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  width: 100%;
+  margin-top: 17vw;
+  padding: 0% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sustain .sus-image-div {
+  width: 10vw;
+  height: 15vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.sustain h5 {
+  opacity: 0.8;
+}
+
+.sus-image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sustain p {
+  margin: 12px 0 16px 0;
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.ephemeral {
+  width: 30vw;
+  min-height: 42vw;
+  position: relative;
+}
+
+.ephemeral .headings {
+  position: absolute;
+  top: -16%;
+  left: -10%;
+}
+
+.ephemeral h1 {
+  font-size: 5vw;
+  letter-spacing: -0.1vw;
+  line-height: 0.9;
+  font-weight: 400;
+}
+
+.image-ephemeral-and-text {
+  width: 100%;
+  height: 100%;
+}
+
+.image-ephemeral-and-text img {
+  width: 100%;
+  height: 100%;
+}
+
+.ephemeral > p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 13px 0;
+}
+
+.visit {
+  display: flex;
+  align-items: center;
+}
+
+.visit i {
+  color: #5e5e5e;
+  font-size: 25px;
+  margin-right: 10px;
+  padding: 12px;
+  border-radius: 50%;
+  border: 1px solid #5e5e5e;
+}
+
+.visit h3 {
+  font-weight: 400;
+  color: #5e5e5e;
+}
+
+.motive {
+  width: 100%;
+  padding: 5% 10%;
+}
+
+.motive h3 {
+  color: #5e5e5e;
+  text-transform: uppercase;
+}
+
+.motive p {
+  margin-top: 3%;
+  font-size: 27px;
+  text-align: right;
+  padding-right: 12%;
+  font-weight: 450;
+}
+
+.motive #three {
+  display: inline-block;
+  background-color: #111;
+  height: 35px;
+  width: 60px;
+  border-radius: 100px;
+  transform: translateY(10px);
+  background-image: url(assets/grass.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.motive #two {
+  display: inline-block;
+  background-color: #111;
+  height: 35px;
+  width: 80px;
+  border-radius: 100px;
+  transform: translateY(10px);
+  background-image: url(assets/shaljam.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.motive #one {
+  display: inline-block;
+  background-color: #111;
+  height: 35px;
+  width: 45px;
+  border-radius: 100px;
+  transform: translateY(10px);
+  background-image: url(assets/bluegirl.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  margin-bottom: 5%;
+}
+
+.hero-section2 .synergy {
+  width: 20vw;
+  overflow: hidden;
+}
+
+.synergy .synergy-image-div {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 35vw;
+  overflow: hidden;
+}
+
+.synergy-image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.synergy h1 {
+  margin-bottom: 4%;
+  font-weight: 300;
+}
+
+.hero-section2 .Harmony {
+  width: 30vw;
+}
+
+.Harmony .harmony-image-div {
+  width: 30vw;
+  height: 47vw;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10%;
+  margin-top: 13%;
+}
+
+.harmony-image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Harmony p {
+  text-align: right;
+}
+
+.Harmony h1 {
+  font-weight: 300;
+  text-align: right;
+  margin-bottom: 4%;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.banner-image-div {
+  width: 70vw;
+  height: 43vw;
+  overflow: hidden;
+}
+
+.banner-image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 65%;
+}
+
+.banner .content {
+  padding-right: 7vw;
+}
+
+.content .headings {
+  font-size: 20px;
+  margin-bottom: 10%;
+  font-weight: 200;
+}
+
+.future {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.future video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  opacity: 0;
+}
+
+.future .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-color: #fff;
+  padding: 2vw 3vw;
+  border-radius: 20px;
+}
+
+.content h1 {
+  font-size: 3vw;
+  font-weight: 300;
+  margin-bottom: 5%;
+}
+
+.content button {
+  padding: 1.2vw 1.5vw;
+  border-radius: 100px;
+  border: none;
+  background-color: #d4cdcd;
+  cursor: pointer;
+}
